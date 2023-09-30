@@ -94,5 +94,9 @@ body {
         flex-direction: column;
         display: none;
       }
+      
+   .swiper{
+    display: none;
+   }
     
     }
