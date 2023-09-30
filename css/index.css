@@ -1,0 +1,85 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10%;
+    height: 73vh;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 67px;
+}
+
+.hero-text p {
+    padding-block: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    font-size: 22px;
+}
+
+.hero-btn {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.btn-one{
+    padding: 15px 45px;
+    background-color: #000;
+}
+
+.btn-one a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-two{
+    border: none;
+    background-color: transparent;
+}
+
+.btn-two a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+.hero-image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+   .swiper {
+       width: 100%;
+       height: 100%;
+   }
+
+   .swiper-slide {
+       text-align: center;
+       font-size: 18px;
+       background: #fff;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .swiper-slide img {
+       display: block;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }

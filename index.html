@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasty - The best podcast </title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Podcasty</h1>
+        </div>
+
+        <div class="nav-links">
+            <a href="">Product</a>
+            <a href="">Solutions</a>
+            <a href="">Pricing</a>
+            <a href="">Resources</a>
+        </div>
+        <div class="nav-btn">
+            <button class="nav-one">
+                <a href="login.html">Login</a>
+            </button>
+            <button class="nav-two">
+                <a href="">Sign up</a>
+            </button>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Find and listen your favorite artist podcast here!</h1>
+            <p>
+                The best podcast websites communicate a feel and 
+                make it easy for visitors to discover your podcast.
+            </p>
+            <div class="hero-btn">
+                <button class="btn-one">
+                    <a href="">Get Started</a>
+                </button>
+
+                <button class="btn-two">
+                    <a href=""> 🚀 Explore chanels</a>
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+<img src="./images/hero.png" alt="">
+        </div>
+    </div>
+
+    <section>
+        <div class="swiper mySwiper heroo">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-img">Slide 1</div>
+                <div class="swiper-slide hero-img">Slide 2</div>
+                <div class="swiper-slide hero-img">Slide 3</div>
+                <div class="swiper-slide hero-img">Slide 4</div>
+                <div class="swiper-slide hero-img">Slide 5</div>
+                <div class="swiper-slide hero-img">Slide 6</div>
+                <div class="swiper-slide hero-img">Slide 7</div>
+                <div class="swiper-slide hero-img">Slide 8</div>
+                <div class="swiper-slide hero-img">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop:true,
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '"></span>';
+                },
+            },
+        });
+    });
+</script>
+
+    <style>
+         .swiper-pagination-bullet {
+            background-color: #000;
+        }
+        .heroo{
+            margin-block: 50px;
+        }
+        .hero-img{
+            height: 150px;
+            width: 150px;
+            background-color: #0000005a;
+            display: flex;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.page-all{
+    border: 2px solid salmon;
+    height: 100vh;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+}
+
+.forms-all{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+height: 80vh;
+text-align: center;
+width: 50%;
+margin: 0 25%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5%;
+    
+    margin-bottom: 30px;
+}
+
+.form input{
+height: 50px;
+border-radius: 27px;
+padding-left: 3%;
+border: 2px solid lightgray;
+}
+
+.form input:focus{
+    outline: 2px solid lightgray;
+}
+.form button{
+    height: 50px;
+    background-color: salmon;
+    border: none;
+    border-radius: 27px;
+}
